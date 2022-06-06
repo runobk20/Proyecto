@@ -2,32 +2,38 @@
     {
         "fecha": "21/3/22",
         "nombre": "Lord of The Rings",
-        "genero": "Cine"
+        "genero": "Cine",
+        "id": "1"
     },
     {
         "fecha": "25/4/22",
         "nombre": "The nutcracker",
-        "genero": "Danza"
+        "genero": "Danza",
+        "id": "2"
     },
     {
         "fecha": "2/6/22",
         "nombre": "Romeo & Julieta",
-        "genero": "Teatro"
+        "genero": "Teatro",
+        "id": "3"
     },
     {
-        "fecha": "21/3/22",
-        "nombre": "Lord of The Rings",
-        "genero": "Cine"
+        "fecha": "28/4/22",
+        "nombre": "Solaris",
+        "genero": "Cine",
+        "id": "4"
     },
     {
-        "fecha": "25/4/22",
-        "nombre": "The nutcracker",
-        "genero": "Danza"
+        "fecha": "5/6/22",
+        "nombre": "Danza contemporanea",
+        "genero": "Danza",
+        "id": "5"
     },
     {
-        "fecha": "2/6/22",
-        "nombre": "Romeo & Julieta",
-        "genero": "Teatro"
+        "fecha": "20/6/22",
+        "nombre": "Macbeth",
+        "genero": "Teatro",
+        "id": "6"
     }
 ]
 

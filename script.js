@@ -15,12 +15,20 @@ const fillArray = (arr) => {
         const title = document.createElement("h2");
         const genre = document.createElement("p");
         const date = document.createElement("span");
+        const buyBtn = document.createElement("button");
+
+        buyBtn.innerText = `Buy ticket for ${e.nombre}`;
+        buyBtn.classList.add("btn");
+        buyBtn.addEventListener("click", () => {
+            const {id} = e;
+            window.sessionStorage.setItem("Selected", id);
+        });
     
         title.append(e.nombre);
         genre.append(e.genero);
         date.append(e.fecha);
     
-        card.append(title, genre, date);
+        card.append(title, genre, date, buyBtn);
         card.classList.add("card");
         shows.push(card);
     });
