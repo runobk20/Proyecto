@@ -1,0 +1,33 @@
+[
+    {
+        "fecha": "21/3/22",
+        "nombre": "Lord of The Rings",
+        "genero": "Cine"
+    },
+    {
+        "fecha": "25/4/22",
+        "nombre": "The nutcracker",
+        "genero": "Danza"
+    },
+    {
+        "fecha": "2/6/22",
+        "nombre": "Romeo & Julieta",
+        "genero": "Teatro"
+    },
+    {
+        "fecha": "21/3/22",
+        "nombre": "Lord of The Rings",
+        "genero": "Cine"
+    },
+    {
+        "fecha": "25/4/22",
+        "nombre": "The nutcracker",
+        "genero": "Danza"
+    },
+    {
+        "fecha": "2/6/22",
+        "nombre": "Romeo & Julieta",
+        "genero": "Teatro"
+    }
+]
+

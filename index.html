@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Ticket Sale</title>
+    </head>
+    <body>
+        <header class="container-fluid bg-primary text-white p-1">
+            <div class="container d-flex justify-content-between">
+                <h1 class="col-3">Ticket Sale</h1>
+                <nav class="col-6 mb-1">
+                    <ul class="d-flex justify-content-between align-items-center h-100">
+                        <li><a class="text-white" href="#0">Home</a></li>
+                        <li><a class="text-white" href="#0">Buy</a></li>
+                        <li><a class="text-white" href="#0">Shows</a></li>
+                        <li><a class="text-white" href="#0">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container ">
+
+            <section>
+                <div id="filters" class="text-center p-1">
+                    <button class="btn btn-warning">Todos</button>
+                    <button class="btn btn-warning">Cine</button>
+                    <button class="btn btn-warning">Danza</button>
+                    <button class="btn btn-warning">Teatro</button>
+                </div>
+            </section>
+            <section id="cards" class="container col-12">
+
+            </section>
+        </main>
+        <footer class="container-fluid bg-info">
+            <p class="mb-0">TicketSale 2022 &copy;</p>
+        </footer>
+    </body>
+<script src="showGenerator.js"></script>
+<!--     <script src="script.js"></script> -->
+</html>
